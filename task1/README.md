@@ -24,9 +24,12 @@ addEight(100); // 108
     └── addN.ts
 ```
 
-* `./src` as a entry for type script compiler
-* `./dist` as a output for compiled files 
+*Run project*
+```
+npm i && npm start
+```
 
-./src entry for type script compiler
- - First nested list item
-    - Second nested list item
+*Expected output*
+```
+15 108
+```
