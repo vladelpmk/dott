@@ -1,8 +1,8 @@
 {
   "name": "task1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "dott test case task1 solution",
+  "main": "./dist/index.js",
   "scripts": {
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
