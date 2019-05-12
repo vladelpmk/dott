@@ -81,7 +81,6 @@ class Carousel extends React.Component<Props> {
 
   isLazyLoad = (index:number):boolean => {
     const {activeIndex} = this.state;
-    const {books} = this.props;
 
     return (index + LOAD_AHEAD >= activeIndex) && (index - LOAD_BACK <= activeIndex)
   }

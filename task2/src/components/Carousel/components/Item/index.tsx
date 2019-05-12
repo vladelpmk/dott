@@ -16,10 +16,10 @@ export default class CarouselItem extends React.Component<Props> {
 
     return (
       <picture>
-        <source media='(min-width: 650px)' srcSet={`http://covers.openlibrary.org/b/${key}/${value}-L.jpg`}/>
-        <source media='(min-width: 465px)' srcSet={`http://covers.openlibrary.org/b/${key}/${value}-M.jpg`}/>
-        <source media='(min-width: 265px)' srcSet={`http://covers.openlibrary.org/b/${key}/${value}-S.jpg`}/>
-        <img src={`http://covers.openlibrary.org/b/${key}/${value}-S.jpg`} alt={book.title}/>
+        <source media='(min-width: 650px)' srcSet={`https://covers.openlibrary.org/b/${key}/${value}-L.jpg`}/>
+        <source media='(min-width: 465px)' srcSet={`https://covers.openlibrary.org/b/${key}/${value}-M.jpg`}/>
+        <source media='(min-width: 265px)' srcSet={`https://covers.openlibrary.org/b/${key}/${value}-S.jpg`}/>
+        <img src={`https://covers.openlibrary.org/b/${key}/${value}-S.jpg`} alt={book.title}/>
       </picture>
     )
   }
